@@ -1,6 +1,6 @@
 #!/usr/bin/expect
 #Start the guest VM
-eval spawn  ssh -i ~/.ssh/id_rsa kubernetes@192.168.0.131 kubectl get pods -n erp
+eval spawn  ssh -i $workspace/.ssh/id_rsa kubernetes@192.168.0.131 kubectl get pods -n erp
 
 set timeout 20
 #Login process
