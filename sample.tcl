@@ -9,6 +9,6 @@ set timeout 20
 #Login process
 expect "passphrase for key"
 #Enter username
-send "sLs@202!\r"
+send "12345\r"
 set timeout 250
 expect "#"
